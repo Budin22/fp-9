@@ -6,7 +6,7 @@ console.log(numOrStr);
 
 // Task #1
 
-if(numOrStr === null || numOrStr.trim() === '' || numOrStr === null || isNaN( +numOrStr )) {
+if(numOrStr === null || numOrStr.trim() === '' || isNaN( +numOrStr )) {
     console.log('Ошибка');
 } else {
     console.log('Ok!');
